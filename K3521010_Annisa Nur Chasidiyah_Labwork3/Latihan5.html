@@ -1,0 +1,57 @@
+<html>
+    <head>
+       <title>Formulir Pendaftaran Anggota Perpustakaan UNS</title> 
+    </head>
+    <body>
+        <h2 align="center">Formulir Pendaftaran Anggota Perpustakaan UNS</h2>
+        <form action="proses.php" method="post" name="form">
+        <table width="68%" border="0" align="center"
+        cellpadding="0">
+        <tr>
+        <td width="33%">Nama Lengkap</td>
+        <td width="3%">:</td>
+        <td width="64%"><input name="txtNama" type="text" id="txtNama"></td>
+        </tr>
+        <tr>
+        <td >Tempat/Tanggal Lahir</td>
+        <td>:</td>
+        <td><input name="tempat" type="text" id="txttempat"> / <input name="txtTgl" type="date" id="txtTgl"></td>
+        </tr>
+        <tr>
+        <td>Jenis Kelamin</td>
+        <td>:</td>
+        <td><input name="radJk" type="radio" value="1" checked>Laki-Laki  <input type="radio" name="radJk" value="2">Perempuan</td>
+        </tr>
+        <tr>
+        <td>Alamat</td>
+        <td>:</td>
+        <td><textarea name="txtAlamat" cols="40" rows="3" id="txtAlamat"></textarea></td>
+        </tr>
+        <tr>
+        <td>Prodi</td>
+        <td>:</td>
+        <td><input name="txtprodi" type="text" id="txtprodi"></td>
+        </tr>
+        <tr>
+        <td>Fakultas</td>
+        <td>:</td>
+        <td><input name="txtfakultas" type="text" id="txtfakultas"></td>
+        </tr>
+        <td>Email</td>
+        <td>:</td>
+        <td><input name="txtemail" type="text" id="txtemail"></td>
+        </tr>
+        <td>Telepon</td>
+        <td>:</td>
+        <td><input name="telp" type="tel" id="teltelp"></td>
+        </tr>
+        <tr>
+        <td></td>
+        <td></td>
+        <td><input name="btnKirim" type="submit" id="btnKirim" value="Kirim">
+        <input name="btnCancel" type="reset" id="btnCancel" value="Batal"></td>
+        </tr>
+    </table>
+    </form>
+    </body>    
+</html>

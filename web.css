@@ -1,0 +1,125 @@
+
+#header{
+    background-image: url(header.jpg);
+    border-bottom-right-radius: 50px;
+    width: 730px;
+    height: 300px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    float: center;
+}
+
+#judul{
+    font-size: 50px;
+    text-align: right;
+    padding: 200px 40px 0 0;
+}
+
+#judul a{
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+}
+
+#judul a:hover{
+    color: grey;
+}
+
+.desc{
+    font-size: 30px;
+    color: rgb(5, 5, 5);
+    text-align: right;
+    padding: 0 40px 0 0;
+}
+
+#menu ul{
+    float: center;
+    background: cyan;
+    padding: 0 0px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    list-style: none;
+    width: 730px;
+}
+
+#menu ul:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#menu ul li{
+    float: left;
+}
+
+#menu ul li:hover{
+    background: blue;
+}
+
+#menu ul li a{
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#menu ul li:hover a{
+    color: white;
+}
+
+#menu ul li:hover > ul {
+    display: block;
+}
+
+#konten{
+    background-color: white;
+    width: 690px;
+    height: auto;
+    margin: 0 0 20px;
+    padding: 20px 20px 20px 20px;
+    float: right;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+}
+
+.posttittle{
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: arial;
+    color: blue;
+}
+
+.posttittle a{
+    text-decoration: none;
+}
+
+.post{
+    margin: 0 20px 0 20px;
+    text-align: justify;
+}
+
+b a{
+    color: blue;
+    text-decoration: none;
+}
+
+img{
+    width: 30%;
+}
+
+#logo{
+    width: 200px;
+    height: 200px;
+}
+
+#footer{
+    background-color: darkblue;
+    padding: 20px 0 0 0;
+    width: 1000px;
+    height: 90px;
+    clear: both;
+    margin: 20 0;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}

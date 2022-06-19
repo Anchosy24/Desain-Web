@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    background: rgb(48, 128, 233)
+}
+
+header{
+    background: url(header.jpg) no-repeat;
+    background-color: rgb(0, 110, 255);
+    background-blend-mode: multiply;
+    opacity: .9;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    text-align: center;
+}
+
+header .wrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+header .wrap h2{
+    padding-bottom: 20px;
+    color: cyan;
+    font-size: 3rem;
+    font-style: italic;
+    text-shadow: 0 5px 1px black;
+}
+
+header .wrap img{
+    border-radius: 50%;
+    border: 8px solid rgb(53, 143, 143);
+    box-shadow: 0 15px 5px 1px rgba(0, 0, 0, .5);
+    transition: transform .3s ease-out;
+    cursor: pointer;
+}
+
+header .wrap img:hover{
+    transform: scale(1.1);
+}
+
+header .wrap ul{
+    list-style: none;
+    padding-top: 15px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header .wrap ul li a{
+    color: cyan;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-shadow: 0 5px 1px black;
+    margin-right: 15px;
+    text-decoration: none;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+
+header .wrap ul li a:hover{
+    text-decoration: underline;
+}
+
+.Biodata{
+    color: white;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.Biodata .wrap h2{
+    text-shadow: 0 4px 0 black;
+    font-size: 3rem;
+    border-bottom: 5px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.Biodata .wrap table{
+    font-size: 20px;
+    line-height: 18px;
+    border-spacing: 10px;
+}
+
+.Riwayat{
+    color: white;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.Riwayat .wrap h2{
+    text-shadow: 0 4px 0 black;
+    font-size: 3rem;
+    border-bottom: 5px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.Riwayat .wrap h3{
+    font-size: 2rem;
+}
+
+.Riwayat .wrap ul{
+    line-height: 30px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.Skill{
+    color: white;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.Skill .wrap h2{
+    text-shadow: 0 4px 0 black;
+    font-size: 2.5rem;
+    border-bottom: 5px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.Skill .wrap ul{
+    line-height: 30px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.Galeri{
+    color: white;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.Galeri h2{
+    text-shadow: 0 4px 0 black;
+    font-size: 2.5rem;
+    border-bottom: 5px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.Galeri h3{
+    font-size: 2rem;
+}
+
+.Galeri img{
+    padding: 10px;
+}
+
+#footer{
+    background-color: rgb(44, 44, 168);
+    padding: 20px 0 0 0;
+    height: 90px;
+    clear: both;
+    margin: 20 0;
+    text-align: center;
+    color: white;
+}
